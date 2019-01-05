@@ -9,7 +9,8 @@ describe('what-is-a-test', () => {
 
 
   describe('Height', () => {
-    it('is greater than 40', () => {
+   - it('is greater than 40', () => {
+    + it()
       expect(index.height).toBeLessThan(40)
     })
   })
